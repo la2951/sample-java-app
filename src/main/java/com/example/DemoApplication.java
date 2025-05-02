@@ -14,6 +14,7 @@ public class DemoApplication {
     }
 
     @GetMapping("/")
-public String hello() {
-    return "Hello, Updated CI/CD Pipeline!";
-}
+    public String hello() {
+        return "Hello, Updated CI/CD Pipeline!";
+    }
+}  // Add this closing brace
